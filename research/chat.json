@@ -1,0 +1,31 @@
+{
+    "rooms":
+            {
+                "-LisWssZm-euDh0eRWm9": 
+                {
+                    "3a6Fo5rrUcBqhUJcLsP0":
+                    {
+                        "content":"welcome to the real time chat",
+                        "created on": "04/08/2019",
+                        "senderId":"-LisWssZm-euDh0eRWm9",
+                        "senderName":"Bintou"
+                    },
+                    "483a6Fo5rrUcBqhUJcLsP0":
+                    {
+                        "content":"We are happy to see you here",
+                        "created on": "04/08/2019",
+                        "senderId":"6Fo5rrUcBqhUJcLsP0",
+                        "senderName":"sidibe"
+                    },
+                    "92u3a6Fo5rrUcBqhUJcLsP0":
+                    {
+                        "content":"welcome to the real time chat",
+                        "created on": "05/08/2019",
+                        "senderId":"-LisWssZm-euDh0eRWm9",
+                        "senderName":"Bintou"
+                    }
+                }
+                
+            }
+}
+
