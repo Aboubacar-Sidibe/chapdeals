@@ -1,0 +1,169 @@
+/*-------------------------
+        Simple reset
+--------------------------*/
+
+
+
+/*-------------------------
+        General Styles
+--------------------------*/
+
+
+
+
+
+
+
+
+
+/*----------------------------
+        The Header
+-----------------------------*/
+
+
+
+
+/*----------------------------
+        The Form
+-----------------------------*/
+
+
+#London{
+    width:440px;
+    margin:5px auto -15px;
+    position:relative;
+    text-align:center;
+}
+
+
+#London {
+    width:440px;
+    height:450px;
+    background:url('../img/form_bg.png') no-repeat;
+    padding-top: 50px;
+}
+
+#London .row{
+    position:relative;
+}
+
+#London .row.error:after,
+#London .row.success:after{
+    content:'';
+
+    position:absolute;
+    right: 60px;
+    top: 8px;
+    width:32px;
+    height:32px;
+    background:url('../img/icons.png') no-repeat;
+}
+
+#London .row.error:after{
+    background-position: 0 -79px;
+}
+
+#London #innerDiv input[type=text],
+#London input[type=password]{
+
+    border:none;
+    font:14px 'Segoe UI','Arial',sans-serif;
+    color:#888;
+
+    outline:none;
+
+    height: 46px;
+    margin: 0.5px;
+    padding: 0 10px 0 50px;
+    width: 278px;
+}
+
+#London input[disabled]{
+    opacity: 0.5;
+}
+
+#London .email input{
+    background-position:0 0;
+}
+
+#London .email input:focus{
+    background-position:0 -48px;
+}
+
+#London .pass input{
+    background-position:0 -96px;
+}
+
+#London .pass input:focus{
+    background-position:0 -144px;
+}
+
+
+
+
+
+
+
+
+
+/*----------------------------
+        The Arrow
+-----------------------------*/
+
+
+#London .arrow{
+    background: url("../img/arrow.png") no-repeat -10px 0;
+    height: 120px;
+    left: 214px;
+    position: absolute;
+    top: 300px;  /*392*/
+    width: 11px;
+
+    /* Defining a smooth CSS3 animation for turning the arrow */
+
+    -moz-transition:0.3s;
+    -webkit-transition:0.3s;
+    -o-transition:0.3s;
+    -ms-transition:0.3s;
+    transition:0.3s;
+
+    /* Putting the arrow in its initial position */
+
+    -moz-transform: rotate(-134deg);
+    -webkit-transform: rotate(-134deg);
+    -o-transform: rotate(-134deg);
+    -ms-transform: rotate(-134deg);
+    transform: rotate(-134deg);
+}
+
+#London .arrowCap{
+    background: url("../img/arrow.png") no-repeat -43px 0;
+    height: 20px;
+    left: 208px;
+    position: absolute;
+    top: 350px;
+    width: 20px;
+    z-index: 10;
+}
+
+#London .meterText{
+    color: #575757;
+    font-size: 10px;
+    left: 189px;
+    line-height: 1.1;
+    position: absolute;
+    top: 395px;
+    width: 60px;
+}
+
+
+
+
+
+
+.w3-btn,.w3-button{border:none;display:inline-block;outline:0;padding:8px 16px;vertical-align:middle;overflow:hidden;text-decoration:none;color:inherit;background-color:inherit;text-align:center;cursor:pointer;white-space:nowrap;box-shadow:0 8px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19)}
+.w3-btn:hover{box-shadow:0 8px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19)}
+.w3-btn,.w3-button{-webkit-touch-callout:none;-webkit-user-select:none;-khtml-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none} 
+
+.w3-hide{display:none!important}.w3-show-block,.w3-show{display:block!important}.w3-show-inline-block{display:inline-block!important}
+
